@@ -1,0 +1,44 @@
+{
+    "globals": {
+        "title": "Gustav's Portfolio",
+        "description": "Portfolio website of Gustav Hubert",
+        "projects": [
+            {
+                "title": "Joust recreation in C",
+                "date": "2019-12-01",
+                "displayDate": "December 2019",
+                "tags": ["lic", "sdev", "C"],
+                "link": "https://github.com/Aed3r/Joust",
+                "shortDescription": "As a way to hone our C skills, me and a friend recreated the classic 1982 cooperative arcade game \"Joust\".",
+                "longDescription": [
+                    "The 1982 game developed by Wiliams Electronics stars a yellow knight riding a flying ostrich, facing off against waves of similarly mounted enemies in a game of deadly joust. Set over a fire-spewing lava pit and in front of a pitch black sky, its design could not have been made more badass. Additionally, the game was well polished and turned out quite successful. A big feature is two-player cooperative play, which was popularized thanks to Joust.",
+                    "This project was built in the context of a course on imperative programming at the Université Jean-Monnet. The primary goal was to improve our C skills, but also to work on graphical applications and AI. We worked on our version of Joust over a period of two and half months and managed to replicate the game with cooperative play, working enemy AI, varied enemies, increasing difficulty with each wave, respawning and scoring. Accurately replicating the odd flying physics of the original game was one of the most complicated parts. We did not have time to replicate everything (e.g. animations) but learned a lot on creating games and graphical programs in general."
+                ]
+            },
+            {
+                "title": "T-Shirt selling site with custom design creator",
+                "date": "2020-04-01",
+                "displayDate": "April 2020",
+                "tags": ["lic", "fend", "bend", "java", "php"],
+                "link": "https://github.com/Aed3r/projet-dev-web",
+                "shortDescription": "Using PHP and vanilla web technologies we built a T-Shirt selling website with an integrated motif creator. Users can upload their own images and place them however they want on a T-Shirt of their choice.",
+                "longDescription": [
+                    "After many months learning database infrastructure and the algorithms surrounding them, we had our first course on web development at Université Jean-Monnet. Meant to teach the basics, this course did not go much in-depth on the latest web technologies and trendy technology stacks. So, using only PHP and Java Servlet, we were tasked to create a webstore. As indicated in the title, my group went for custom T-Shirts.",
+                    "The focus of the project was mainly on the interaction of the back-end with the front-end. Having mostly done that (user accounts, administrative tools, ...), I decided to extend the project by adding the ability to interactively design T-Shirts directly on the site. This feature allows users to change the shirt's color to their liking and to upload images which can be resized and moved around the shirt.",
+                    "While short, this project taught me most basics of web development. The technologies we used were not the most recent (especially not Java Servlets), but we managed to create an interesting website nonetheless."
+                ]
+            },
+            {
+                "title": "Wargame-like strategy game",
+                "date": "2021-01-01",
+                "displayDate": "January 2021",
+                "tags": ["lic", "java", "sdev"],
+                "link": "https://github.com/Aed3r/Wargame",
+                "shortDescription": "This project involved building a game using Java Swing. The game is a classic turn by turn game in which players command their troops on a board in order to defeat an ennemy AI.",
+                "longDescription": [
+                    "This project came together as part of the Object Oriented Programming course at Université Jean-Monnet. Having learnt most of Java, we were tasked with creating "
+                ]
+            }
+        ]
+    }
+}

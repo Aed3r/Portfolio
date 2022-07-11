@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title><%= title %></title>
+        <meta name="description" content="<%= description %>" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+	    <script src="script.js"></script>
+
+        <div ID="mainText">
+            <h3>Hi!</h3>
+            <h2>I'm Gustav Hubert.</h2>
+            <h3>I'm a Computer Science student.</h3>
+        </div>
+
+        <li id="seeMoreText">Check out my projects</li>
+
+        <div id="projectsList">
+            <% for(const project of projects) {%>
+                <div class="projectListing" id="prjct_<%= project.title %>">
+                    <li><%= project.title %></li>
+                    <li><%= project.shortDescription %></li>
+                </div>
+            <% } %>
+        </div>
+    </body>
+</html>
